@@ -1,0 +1,218 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    width: 100%;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.top-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #fff;
+}
+
+.logo img {
+    margin-top: 10px;
+    width: 155px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    padding: 10px 0;
+    position: relative;
+}
+
+.navbar a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #2c3e50;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+.navbar a:hover {
+    color: #3498db;
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+    background-color: #f5f5f5;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.search-bar input {
+    border: none;
+    background: none;
+    outline: none;
+    padding: 5px;
+    font-size: 1em;
+    transition: background-color 0.3s ease;
+}
+
+.search-bar input:focus {
+    background-color: #eaeaea;
+}
+
+.search-bar svg {
+    margin-left: 5px;
+    color: #7f8c8d;
+    transition: color 0.3s ease;
+}
+
+.search-bar svg:hover {
+    color: #3498db;
+}
+
+.hamburger-container {
+    position: relative;
+}
+
+.hamburger-menu {
+    cursor: pointer;
+    margin-right: 3px;
+    transition: color 0.3s ease;
+}
+
+.hamburger-menu:hover {
+    color: #3498db;
+}
+
+.category-menu {
+    display: none;
+    flex-direction: column;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 200px;
+    z-index: 1000;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.category-menu a {
+    padding: 10px;
+    text-decoration: none;
+    color: #2c3e50;
+    border-bottom: 1px solid #f5f5f5;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.category-menu a:hover {
+    background-color: #f5f5f5;
+    color: #3498db;
+}
+
+.product-section {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 20px;
+    background-color: #f9f9f9;
+}
+
+.product-card {
+    width: 18%;
+    margin: 5px;
+    padding: 5px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    border-radius: 5px;
+}
+
+.product-card img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.product-name {
+    margin: 0;
+    font-size: 1.1em;
+    color: #2c3e50;
+}
+
+.product-description {
+    margin: 5px 0;
+    font-size: 0.9em;
+    color: #7f8c8d;
+}
+
+.product-price {
+    margin: 5px 0;
+    font-size: 1em;
+    color: #020202;
+}
+
+.buy-link {
+    display: inline-block;
+    padding: 10px 15px;
+    background-color: #000;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.buy-link:hover {
+    background-color: #333;
+}
+
+/* Estilo do footer */
+footer {
+    background-color: #151616;
+    color: #fff;
+    padding: 20px 0;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer-section {
+    width: 30%;
+}
+
+.footer-section h4 {
+    margin-top: 0;
+}
+
+.footer-section p,
+.footer-section ul,
+.footer-section li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.footer-section ul {
+    padding-left: 0;
+}
+
+.footer-section li {
+    margin-bottom: 10px;
+}
+
+.footer-section a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer-section a:hover {
+    text-decoration: underline;
+}

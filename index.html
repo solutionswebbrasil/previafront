@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ShapeFyLife</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="top-bar">
+            <div class="logo">
+                <img src="./img/logo.svg" alt="ShapeFyLife Logo" width="155">
+            </div>
+            <div class="search-bar">
+                <input type="text" placeholder="Search" size="25">
+                <svg height="24" viewBox="0 96 960 960" width="24">
+                    <path d="M796 923L587 714q-28 23-64.5 35.5T445 762q-104 0-177.5-73.5T194 511q0-104 73.5-177.5T445 260q104 0 177.5 73.5T696 511q0 36-12.5 72.5T648 648l209 209-61 66ZM445 674q71 0 119.5-48.5T613 506q0-71-48.5-119.5T445 338q-71 0-119.5 48.5T277 506q0 71 48.5 119.5T445 674Z"/>
+                </svg>
+            </div>
+        </div>
+        <nav class="navbar">
+            <div class="hamburger-container">
+                <a href="#" class="hamburger-menu" onclick="toggleMenu()">&#9776; Categorias</a>
+                <div id="category-menu" class="category-menu">
+                    <!-- Menu categories will be added here -->
+                </div>
+            </div>
+            <a href="#">Promoção</a>
+            <a href="#">Whey Protein</a>
+            <a href="#">Creatina</a>
+            <a href="#">Pre-treino</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="product-section">
+            <div class="product-card">
+                <img src="./img/1.svg" alt="Produto 1">
+                <p class="product-name">Produto 1</p>
+                <p class="product-description">Texto 1</p>
+                <hr>
+                <p class="product-price">R$ 0,00</p>
+                <a href="#" class="buy-link">Ir para a loja</a>
+            </div>
+            <div class="product-card">
+                <img src="./img/2.svg" alt="Produto 2">
+                <p class="product-name">Produto 2</p>
+                <p class="product-description">Texto 1</p>
+                <hr>
+                <p class="product-price">R$ 0,00</p>
+                <a href="#" class="buy-link">Ir para a loja</a>
+            </div>
+            <div class="product-card">
+                <img src="./img/3.svg" alt="Produto 3">
+                <p class="product-name">Produto 3</p>
+                <p class="product-description">Texto 1</p>
+                <hr>
+                <p class="product-price">R$ 0,00</p>
+                <a href="#" class="buy-link">Ir para a loja</a>
+            </div>
+            <div class="product-card">
+                <img src="./img/4.svg" alt="Produto 4">
+                <p class="product-name">Produto 4</p>
+                <p class="product-description">Texto 1</p>
+                <hr>
+                <p class="product-price">R$ 0,00</p>
+                <a href="#" class="buy-link">Ir para a loja</a>
+            </div>
+        </section>
+
+        <section class="product-section">
+            <div class="product-card">
+                <img src="./img/5.svg" alt="Produto 5">
+                <p class="product-name">Produto 5</p>
+                <p class="product-description">Texto 1</p>
+                <hr>
+                <p class="product-price">R$ 0,00</p>
+                <a href="#" class="buy-link">Ir para a loja</a>
+            </div>
+            <div class="product-card">
+                <img src="./img/6.svg" alt="Produto 6">
+                <p class="product-name">Produto 6</p>
+                <p class="product-description">Texto 1</p>
+                <hr>
+                <p class="product-price">R$ 0,00</p>
+                <a href="#" class="buy-link">Ir para a loja</a>
+            </div>
+            <div class="product-card">
+                <img src="./img/7.svg" alt="Produto 7">
+                <p class="product-name">Produto 7</p>
+                <p class="product-description">Texto 1</p>
+                <hr>
+                <p class="product-price">R$ 0,00</p>
+                <a href="#" class="buy-link">Ir para a loja</a>
+            </div>
+            <div class="product-card">
+                <img src="./img/8.svg" alt="Produto 8">
+                <p class="product-name">Produto 8</p>
+                <p class="product-description">Texto 1</p>
+                <hr>
+                <p class="product-price">R$ 0,00</p>
+                <a href="#" class="buy-link">Ir para a loja</a>
+            </div>
+        </section>
+
+        <section class="product-section">
+            <div class="product-card">
+                <img src="./img/9.svg" alt="Produto 9">
+                <p class="product-name">Produto 9</p>
+                <p class="product-description">Texto 1</p>
+                <hr>
+                <p class="product-price">R$ 0,00</p>
+                <a href="#" class="buy-link">Ir para a loja</a>
+            </div>
+            <div class="product-card">
+                <img src="./img/10.svg" alt="Produto 10">
+                <p class="product-name">Produto 10</p>
+                <p class="product-description">Texto 1</p>
+                <hr>
+                <p class="product-price">R$ 0,00</p>
+                <a href="#" class="buy-link">Ir para a loja</a>
+            </div>
+            <div class="product-card">
+                <img src="./img/11.svg" alt="Produto 11">
+                <p class="product-name">Produto 11</p>
+                <p class="product-description">Texto 1</p>
+                <hr>
+                <p class="product-price">R$ 0,00</p>
+                <a href="#" class="buy-link">Ir para a loja</a>
+            </div>
+            <div class="product-card">
+                <img src="./img/12.svg" alt="Produto 12">
+                <p class="product-name">Produto 12</p>
+                <p class="product-description">Texto 1</p>
+                <hr>
+                <p class="product-price">R$ 0,00</p>
+                <a href="#" class="buy-link">Ir para a loja</a>
+            </div>
+        </section>
+
+        <section class="product-section">
+            <div class="product-card">
+                <img src="./img/13.svg" alt="Produto 13">
+                <p class="product-name">Produto 13</p>
+                <p class="product-description">Texto 1</p>
+                <hr>
+                <p class="product-price">R$ 0,00</p>
+                <a href="#" class="buy-link">Ir para a loja</a>
+            </div>
+            <div class="product-card">
+                <img src="./img/14.svg" alt="Produto 14">
+                <p class="product-name">Produto 14</p>
+                <p class="product-description">Texto 1</p>
+                <hr>
+                <p class="product-price">R$ 0,00</p>
+                <a href="#" class="buy-link">Ir para a loja</a>
+            </div>
+            <div class="product-card">
+                <img src="./img/15.svg" alt="Produto 15">
+                <p class="product-name">Produto 15</p>
+                <p class="product-description">Texto 1</p>
+                <hr>
+                <p class="product-price">R$ 0,00</p>
+                <a href="#" class="buy-link">Ir para a loja</a>
+            </div>
+            <div class="product-card">
+                <img src="./img/16.svg" alt="Produto 16">
+                <p class="product-name">Produto 16</p>
+                <p class="product-description">Texto 1</p>
+                <hr>
+                <p class="product-price">R$ 0,00</p>
+                <a href="#" class="buy-link">Ir para a loja</a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-container">
+            <div class="footer-section">
+                <h4>ShapeFyLife</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin et felis vel tortor blandit ullamcorper.</p>
+            </div>
+            <div class="footer-section">
+                <h4>Links</h4>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Sobre</a></li>
+                    <li><a href="#">Serviços</a></li>
+                    <li><a href="#">Contato</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Contato</h4>
+                <ul>
+                    <li>Telefone: (11) 1234-5678</li>
+                    <li>Email: contato@shapefylife.com</li>
+                    <li>Endereço: Rua Exemplo, 123, São Paulo, SP</li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
